@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barishal design</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&display=swap");
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        /* font-family: 'Anton', sans-serif; */
+        font-family: "Space Grotesk", sans-serif;
+        background-color: #2b282d;
+      }
+      header img {
+        width: 100%;
+      }
+      .container {
+        max-width: 640px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      main {
+        margin: 9px 20px;
+        padding: 28px;
+        background-color: #403e42;
+        border-radius: 6px;
+      }
+      footer {
+        margin: 40px 20px;
+      }
+      h1 {
+        font-family: "Anton", sans-serif;
+        color: #fff;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 27.1px;
+        margin-bottom: 18px;
+      }
+      @media screen and (min-width: 426px) {
+        h1 {
+          font-size: 36px;
+        }
+      }
+      p {
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+      @media screen and (min-width: 426px) {
+        p {
+          font-size: 18px;
+        }
+      }
+      .bold {
+        font-weight: 500;
+      }
+      .extra-bold {
+        font-weight: 700;
+      }
+      .btn {
+        font-size: 20px;
+        height: 32px;
+        border-radius: 4px;
+        padding: 28px 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(270deg, #75002d 0%, #e5126b 77.08%);
+        color: #fff;
+        text-decoration: none;
+      }
+      .btn img {
+        width: 20px;
+      }
+      footer a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="/images/header_2x.jpg" alt="Header image" />
+      </header>
+      <main>
+        <h1>MAKE THE PAYMENT</h1>
+        <p>Thank you for registering!</p>
+        <p>
+          We have received your registration information. To secure your seat
+          and confirm your registration,
+          <span class="extra-bold"
+            >please make the payment for the registration fee.
+          </span>
+        </p>
+        <p>If you have already paid, please ignore this email.</p>
+        <a href="#" role="button" class="btn">
+          Pay Now
+          <img src="/images/arw.png" alt="arw" />
+        </a>
+      </main>
+      <footer>
+        <p>If you have already paid, ignore this email.</p>
+        <a href="https://barishal.design/" target="_blank" class="bold"
+          >barishal.design</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
